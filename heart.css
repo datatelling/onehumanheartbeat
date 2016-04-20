@@ -1,0 +1,156 @@
+body
+{
+	background-color: #330000;
+	font-family: 'Ubuntu Mono', serif;
+    font-size: 12px;
+}
+
+a {
+	color:#B20000;
+	text-decoration: none;
+    font-size: 12px;
+}
+
+#leftuppertextwrapper {
+	width:100px;
+	height:60px;
+	padding:2px;
+	background-color: rgba(51, 0, 0, 0.6);
+	/*opacity: 0.8;*/
+	/*z-index: 100;*/
+	position: fixed;
+	top: 10px;
+	/*border: 1px solid black;*/
+}
+
+#rightuppertextwrapper {
+	width:100px;
+	height:275px;
+	padding:2px;
+	background-color: rgba(51, 0, 0, 0.6);
+	text-align: right;
+	/*opacity: 0.8;*/
+	/*z-index: 100;*/
+	position: fixed;
+	right:10px;
+	top: 0px;
+	/*border: 1px solid black;*/
+}
+
+#leftlowertextwrapper {
+	width:80px;
+	height:180px;
+	padding:2px;
+	background-color: rgba(51, 0, 0, 0.6);
+	/*text-align: right;*/
+	/*opacity: 0.8;*/
+	/*z-index: 100;*/
+	position: fixed;
+	bottom:10px;
+	/*border: 1px solid black;*/
+}
+
+#rightlowertextwrapper {
+	width:110px;
+	height:30px;
+	padding:2px;
+	background-color: rgba(51, 0, 0, 0.6);
+	text-align: right;
+	/*opacity: 0.8;*/
+	/*z-index: 100;*/
+	position: fixed;
+	right:10px;
+	bottom: 10px;
+	/*border: 1px solid black;*/
+}
+
+
+p.label {
+	font-family: 'Ubuntu Mono', serif;
+	/*text-decoration: underline;*/
+    font-size: 12px;	
+    margin-bottom: 3px;
+    margin-top: 2px;
+    color:#909090;
+}
+
+p.data {
+	font-family: 'Ubuntu Mono', serif;
+	/*text-decoration: underline;*/
+    font-size: 12px;	
+    width: 70px;
+    margin-top:0px;
+    padding-left:3px;
+    padding-right:3px;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    /*color:#4B4B4B;*/
+    color:#B20000;
+}
+
+#title {
+	position:absolute;
+	width:120px;
+	/*border: 1px solid black;*/
+}
+
+#title h2 {
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #B20000;
+	/*opacity:0.6;*/
+}
+
+/*#annotations {
+	position:absolute;
+	top:65px;
+
+}
+*/
+#heart {
+  width:1000px;
+  height:1000px;
+  /*background:red;*/
+  background: -webkit-radial-gradient(red 5%, #330000 70%, #330000 100%); /* Safari 5.1-6.0 */
+	background: -o-radial-gradient(red 5%, #330000 70%, #330000 100%); /* For Opera 11.6-12.0 */
+	background: -moz-radial-gradient(red 5%, #330000 70%, #330000 100%); /* For Firefox 3.6-15 */
+	background: radial-gradient(red 5%, #330000 70%, #330000 100%); /* Standard syntax */
+
+  opacity:0.4;
+  /*border-radius: 100px;*/
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-500px;
+  margin-top:-500px;
+}
+
+#transimagetest {
+  width:1280px;
+  height:1000px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-left:-640px;
+  margin-top:-500px;
+}
+
+.dayslived {
+	width:2px;
+	height:3px;
+	background:rgb(77,77,77);
+	position:absolute;
+  	top:0;
+  	bottom: 0;
+  	left:0;
+  	right: 0;
+  	margin: auto;
+
+/*		transformOrigin: 'top left';
+	transform: translate(-100px, -200px);
+	-webkit-transformOrigin: 'top left';
+	-webkit-transform: translate(-100px, -200px);
+*/	}
+
