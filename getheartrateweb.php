@@ -1,8 +1,11 @@
 <?php
+
+// Include User and Password variables
+include("user.php");
+
 // This could be supplied by a user, for example
 $getdate=$_GET['date'];
-
-$dbconnect = mysql_connect('localhost', 'jenlowew_head', 'days29646!!')
+$dbconnect = mysql_connect('localhost', $user, $pass)
         or die('Could not connect: ' . mysql_error());
 
 mysql_select_db('jenlowew_heart') or die('Could not select database');

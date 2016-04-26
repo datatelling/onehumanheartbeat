@@ -1,6 +1,9 @@
 <?php
 
-$link = mysql_connect('localhost', 'jenlowew_head', 'days29646!!')
+// Include User and Password variables
+include("user.php");
+
+$link = mysql_connect('localhost', $user, $pass)
         or die('Could not connect: ' . mysql_error());
 
 mysql_select_db('jenlowew_heart') or die('Could not select database');
